@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import "./styles/main.css";
 
 // Assets
@@ -21,12 +21,15 @@ function App() {
 
   // Theme effect
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "dark") {
-      document.body.classList.add("dark");
-      setIsDarkMode(true);
-    }
-  }, []);
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark" || !savedTheme) {
+    document.body.classList.add("dark");
+    setIsDarkMode(true);
+  } else {
+    document.body.classList.remove("dark");
+    setIsDarkMode(false);
+  }
+}, []);
 
   const toggleDarkMode = () => {
     setIsDarkMode((prev) => {

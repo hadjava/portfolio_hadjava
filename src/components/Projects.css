@@ -1,0 +1,135 @@
+.projects-page {
+  padding: 40px 0;
+  min-height: 80vh;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--title-1);
+  font-size: 2.5rem;
+}
+
+.projects-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-section {
+  margin-bottom: 60px;
+}
+
+.project-section h2 {
+  color: var(--accent);
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.project-section p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: var(--project-card-bg);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: var(--text-color);
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.project-card p {
+  color: var(--text-color);
+  opacity: 0.8;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 20px 0;
+  }
+  
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .project-section {
+    margin-bottom: 40px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+/* Simple Technologies Section */
+.tech-simple {
+  background: var(--project-card-bg);
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent);
+}
+
+.tech-simple h4 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+
+.tech-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tech-item {
+  padding: 12px;
+  background: var(--bg-color);
+  border-radius: 6px;
+  border: 1px solid var(--black-border);
+}
+
+.github-simple {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.github-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: var(--purple);
+  transform: translateY(-2px);
+}

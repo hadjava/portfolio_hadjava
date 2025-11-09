@@ -1,0 +1,379 @@
+/* components/Contacts.css */
+.contacts-page {
+  padding: 40px 0;
+  min-height: 80vh;
+}
+
+.contacts-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--title-1);
+  font-size: 2.5rem;
+}
+
+.contacts-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Секция контактной информации */
+.contact-info-section {
+  margin-bottom: 50px;
+}
+
+.contact-info-section h2 {
+  color: var(--accent);
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.contact-info-item:nth-child(1) .contact-icon {
+  background-color: #FFEB3B; /* Ярко-желтый для email */
+  color: #000;
+}
+
+.contact-info-item:nth-child(2) .contact-icon {
+  background-color: #18FFFF; /* Ярко-голубой для телефона */
+  color: #000;
+}
+
+.contact-info-item:nth-child(3) .contact-icon {
+  background-color: #FF5252; /* Ярко-красный для локации */
+  color: #fff;
+}
+
+.contact-info-item:nth-child(4) .contact-icon {
+  background-color: #4ECDC4; /* Бирюзовый для времени */
+  color: #fff;
+}
+
+
+.contact-info-item:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  background-color: var(--accent);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.contact-details h3 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.contact-details p {
+  color: var(--text-color);
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.contact-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--purple);
+}
+
+/* Социальные сети */
+.social-section {
+  margin-bottom: 50px;
+}
+
+.social-section h2 {
+  color: var(--accent);
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.social-link {
+  background-color: var(--project-card-bg);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background-color: var(--accent);
+  color: white;
+}
+
+.social-link i {
+  font-size: 1.5rem;
+  width: 30px;
+}
+
+.social-link span {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* Форма обратной связи */
+.contact-form-section {
+  margin-bottom: 50px;
+}
+
+.contact-form-section h2 {
+  color: var(--accent);
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.contact-form {
+  background-color: var(--project-card-bg);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid var(--black-border);
+  border-radius: 5px;
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-btn:hover {
+  background-color: var(--purple);
+  transform: translateY(-2px);
+}
+
+/* Дополнительная информация */
+.additional-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.info-card {
+  background-color: var(--project-card-bg);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card i {
+  font-size: 2.5rem;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  color: var(--text-color);
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.info-card p {
+  color: var(--text-color);
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .contacts-page {
+    padding: 20px 0;
+  }
+  
+  .contacts-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-form {
+    padding: 30px 20px;
+  }
+  
+  .contact-info-item {
+    padding: 20px;
+  }
+  
+  .social-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .additional-info {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-icon {
+    align-self: center;
+  }
+}
+/* Стили для сообщений формы */
+.form-message {
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.form-message.error {
+  background-color: rgba(255, 77, 77, 0.1);
+  border: 1px solid #ff4d4d;
+  color: #ff6b6b;
+}
+
+.form-message.success {
+  background-color: rgba(77, 255, 77, 0.1);
+  border: 1px solid #4dff4d;
+  color: #6bff6b;
+}
+
+/* Состояния кнопки */
+.submit-btn.submitting {
+  background-color: var(--black-border);
+  cursor: not-allowed;
+}
+
+.submit-btn.submitting:hover {
+  transform: none;
+  background-color: var(--black-border);
+}
+
+.submit-btn.success {
+  background-color: #4ECDC4;
+}
+
+.submit-btn.error {
+  background-color: #FF5252;
+}
+
+/* Анимация спиннера */
+.fa-spin {
+  animation: fa-spin 1s linear infinite;
+}
+
+@keyframes fa-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Состояния полей при загрузке */
+.form-group input:disabled,
+.form-group textarea:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background-color: var(--black-border);
+}
+
+/* Адаптивность для сообщений */
+@media (max-width: 768px) {
+  .form-message {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+}

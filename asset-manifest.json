@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio_hadjava/static/css/main.c90bb2ca.css",
+    "main.js": "/portfolio_hadjava/static/js/main.23eafc49.js",
+    "static/js/453.f00fb91e.chunk.js": "/portfolio_hadjava/static/js/453.f00fb91e.chunk.js",
+    "static/media/cv-german.pdf": "/portfolio_hadjava/static/media/cv-german.3c6d0419d54a0e918856.pdf",
+    "static/media/cv-english.pdf": "/portfolio_hadjava/static/media/cv-english.2b94896f786a6b0d4956.pdf",
+    "static/media/avatar.png": "/portfolio_hadjava/static/media/avatar.5c2006e50f4d2952061f.png",
+    "static/media/cv-photo.jpg": "/portfolio_hadjava/static/media/cv-photo.5d0388840be560864d5a.jpg",
+    "static/media/sun.svg": "/portfolio_hadjava/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/portfolio_hadjava/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/portfolio_hadjava/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/linkedIn.svg": "/portfolio_hadjava/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "index.html": "/portfolio_hadjava/index.html",
+    "main.c90bb2ca.css.map": "/portfolio_hadjava/static/css/main.c90bb2ca.css.map",
+    "main.23eafc49.js.map": "/portfolio_hadjava/static/js/main.23eafc49.js.map",
+    "453.f00fb91e.chunk.js.map": "/portfolio_hadjava/static/js/453.f00fb91e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c90bb2ca.css",
+    "static/js/main.23eafc49.js"
+  ]
+}

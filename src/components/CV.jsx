@@ -19,25 +19,31 @@ const CV = () => {
             
             {/* Ссылки для скачивания */}
             <div className="download-section">
-              <h3>Download CV</h3>
-              <div className="download-buttons">
-                <a 
-  href="#" 
-  onClick={(e) => e.preventDefault()} 
-  className="download-btn"
->
-  📄 English Version
-</a>
+  <h3>Download CV</h3>
+  <div className="download-buttons">
+    <a
+      href="#"
+      onClick={(e) => {
+        e.preventDefault();
+        alert("CV download is temporarily unavailable. Please try again later.");
+      }}
+      className="download-btn"
+    >
+      📄 English Version
+    </a>
 
-<a 
-  href="#" 
-  onClick={(e) => e.preventDefault()} 
-  className="download-btn"
->
-  📄 German Version
-</a>
-              </div>
-            </div>
+    <a
+      href="#"
+      onClick={(e) => {
+        e.preventDefault();
+        alert("CV download is temporarily unavailable. Please try again later.");
+      }}
+      className="download-btn"
+    >
+      📄 German Version
+    </a>
+  </div>
+</div>
 
             {/* Контакты */}
             <div className="cv-contacts">

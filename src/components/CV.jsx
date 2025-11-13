@@ -22,19 +22,20 @@ const CV = () => {
               <h3>Download CV</h3>
               <div className="download-buttons">
                 <a 
-                  href={cvEnglish} 
-                  download="CV_English_Dmytro_Khadzhava.pdf"
-                  className="download-btn"
-                >
-                  📄 English Version
-                </a>
-                <a 
-                  href={cvGerman} 
-                  download="CV_German_Dmytro_Khadzhava.pdf"
-                  className="download-btn"
-                >
-                  📄 German Version
-                </a>
+  href="#" 
+  onClick={(e) => e.preventDefault()} 
+  className="download-btn"
+>
+  📄 English Version
+</a>
+
+<a 
+  href="#" 
+  onClick={(e) => e.preventDefault()} 
+  className="download-btn"
+>
+  📄 German Version
+</a>
               </div>
             </div>
 
@@ -51,10 +52,11 @@ const CV = () => {
                   https://t.me/hadjava
                  </a>
               </div>
-              <div className="contact-item">
+              {/*<div className="contact-item">
                 <strong>Tel:</strong>
-                <span>+49 160 4593825</span>
-              </div>
+                <span>+49 160 </span>
+              </div>*/}
+             
             </div>
           </div>
 

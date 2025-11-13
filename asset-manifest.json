@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_hadjava/static/css/main.c90bb2ca.css",
-    "main.js": "/portfolio_hadjava/static/js/main.e43878b9.js",
+    "main.js": "/portfolio_hadjava/static/js/main.df2da569.js",
     "static/js/453.f00fb91e.chunk.js": "/portfolio_hadjava/static/js/453.f00fb91e.chunk.js",
     "static/media/cv-german.pdf": "/portfolio_hadjava/static/media/cv-german.bd179a07e4fb23c45317.pdf",
     "static/media/cv-english.pdf": "/portfolio_hadjava/static/media/cv-english.8018ead04e0ca8a0e5d9.pdf",
@@ -13,11 +13,11 @@
     "static/media/linkedIn.svg": "/portfolio_hadjava/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/portfolio_hadjava/index.html",
     "main.c90bb2ca.css.map": "/portfolio_hadjava/static/css/main.c90bb2ca.css.map",
-    "main.e43878b9.js.map": "/portfolio_hadjava/static/js/main.e43878b9.js.map",
+    "main.df2da569.js.map": "/portfolio_hadjava/static/js/main.df2da569.js.map",
     "453.f00fb91e.chunk.js.map": "/portfolio_hadjava/static/js/453.f00fb91e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c90bb2ca.css",
-    "static/js/main.e43878b9.js"
+    "static/js/main.df2da569.js"
   ]
 }

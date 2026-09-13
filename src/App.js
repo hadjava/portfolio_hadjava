@@ -161,9 +161,9 @@ function App() {
             </div>
             
             <div className="header__wrapper">
-              <h1 className="header__title">Frontend developer &amp; freelancer</h1>
+              <h1 className="header__title">FULL-STACK SYSTEMS ENGINEER</h1>
               <p className="header__text">
-                I build modern, responsive web interfaces.
+                Full-Stack Systems Engineer with experience in IT infrastructure, networking, automation, DevOps, and frontend development..
               </p>
               
               {/* Technologies Button */}
